@@ -1,0 +1,974 @@
+<!DOCTYPE html><html class="dark" lang="es" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><title>Webs Studio</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-surface":"#dee2f6","secondary-fixed":"#6ffbbe","surface-container":"#1a1f2e","secondary-fixed-dim":"#4edea3","error-container":"#93000a","background":"#0e1321","tertiary-fixed-dim":"#7bd0ff","on-tertiary-container":"#f1f8ff","on-primary-fixed":"#001849","on-primary-fixed-variant":"#003fa4","on-error":"#690005","inverse-on-surface":"#2b303f","outline":"#8c90a1","on-secondary-container":"#00311f","on-surface":"#dee2f6","primary-container":"#0066ff","on-secondary":"#003824","on-background":"#dee2f6","surface":"#0e1321","surface-container-high":"#252a39","on-error-container":"#ffdad6","primary-fixed":"#dae1ff","on-surface-variant":"#c2c6d8","tertiary":"#7bd0ff","primary":"#b3c5ff","secondary":"#4edea3","on-tertiary-fixed":"#001e2c","on-secondary-fixed":"#002113","on-primary":"#002b75","tertiary-fixed":"#c4e7ff","error":"#ffb4ab","surface-variant":"#303444","tertiary-container":"#007aa5","on-tertiary":"#00354a","on-primary-container":"#f8f7ff","outline-variant":"#424656","on-tertiary-fixed-variant":"#004c69","surface-container-low":"#161b2a","secondary-container":"#00a572","surface-container-lowest":"#090e1c","surface-dim":"#0e1321","surface-bright":"#343948","surface-tint":"#b3c5ff","on-secondary-fixed-variant":"#005236","primary-fixed-dim":"#b3c5ff","surface-container-highest":"#303444","inverse-primary":"#0054d6"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter-mobile":"1rem","space-md":"1rem","margin":"2rem","space-lg":"1.5rem","margin-mobile":"1.25rem","gutter":"1.5rem","space-sm":"0.5rem","space-xl":"2.5rem","space-xs":"0.25rem"},fontFamily:{"headline-sm":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-md":["Inter"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Inter"],"label-sm":["Inter"],"display-hero":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-lg":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"display-hero-mobile":["Plus Jakarta Sans"]},fontSize:{"headline-sm":["20px",{lineHeight:"28px",fontWeight:"600"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",fontWeight:"600"}],"headline-md":["28px",{lineHeight:"36px",fontWeight:"700"}],"body-sm":["14px",{lineHeight:"20px",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"14px",fontWeight:"500"}],"display-hero":["56px",{lineHeight:"64px",fontWeight:"800"}],"headline-lg":["40px",{lineHeight:"48px",fontWeight:"700"}],"label-lg":["14px",{lineHeight:"20px",fontWeight:"600"}],"headline-lg-mobile":["30px",{lineHeight:"38px",fontWeight:"700"}],"body-md":["16px",{lineHeight:"24px",fontWeight:"400"}],"display-hero-mobile":["38px",{lineHeight:"44px",fontWeight:"800"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Webs Studio Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VKwQzaPyRKV8BA3J5ULgTB_b80fvKqRYIQUfYhkZ0rFeI3TZEPJ_4Hk4iFtUHH0huksXDhTG6fG5-JEZ5D5GAPKVC8oAvBGGPKkDRT9pd6o-FaWeR_f6Rd6uI2nw_MRLrnqHyDgmLBwPigSQg_UEQBjawvXbnxPdplgGnFdI901fZx9gBl3TqZBwbnruLeRg_3km3uQ46YKClkBbYEX0YMvxzB6bi6gOW0xlbahYfUCuJdO2VmbV3M3YI6"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface font-bold">Webs Studio</span><div class="hidden sm:inline-flex items-center gap-1.5 ml-space-xs px-2.5 py-0.5 rounded-full bg-surface-container-high"><span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span><span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">Mallorca</span></div></div><nav class="hidden xl:flex items-center gap-space-md" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg px-3 py-1.5"><a aria-current="page" class="transition-colors bg-primary-container text-on-primary-container font-semibold rounded-lg px-3 py-1.5" data-path="inicio" href="#">Inicio</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1.5 px-2" data-path="servicios" href="#">Servicios</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1.5 px-2" data-path="proyectos" href="#">Proyectos</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1.5 px-2" data-path="proceso" href="#">Proceso</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1.5 px-2" data-path="sobre-nosotros" href="#">Sobre Nosotros</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1.5 px-2" data-path="contacto" href="#">Contacto</a></nav><div class="flex items-center gap-space-sm"><a class="hidden md:inline-flex items-center justify-center font-label-lg text-label-lg font-semibold text-on-primary-container bg-primary-container hover:bg-inverse-primary hover:text-on-primary-container rounded-lg px-space-lg h-10 shadow-[0_0_20px_rgba(0,102,255,0.4)] transition-all" data-path="solicitar-presupuesto" href="#">Solicitar Presupuesto</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><button aria-label="Menu" class="xl:hidden p-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" onclick="document.getElementById('mobile-drawer').classList.toggle('hidden')" type="button"><span class="material-symbols-outlined text-[24px]">menu</span></button></div></div><div class="hidden xl:hidden bg-surface-container-low px-gutter-mobile py-space-lg shadow-[0_12px_32px_-8px_rgba(0,102,255,0.22)]" id="mobile-drawer"><nav class="flex flex-col gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg"><a aria-current="page" class="px-space-md py-space-sm transition-colors bg-primary-container text-on-primary-container font-semibold rounded-lg" data-path="inicio" href="#">Inicio</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-sm rounded-lg transition-colors" data-path="servicios" href="#">Servicios</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-sm rounded-lg transition-colors" data-path="proyectos" href="#">Proyectos</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-sm rounded-lg transition-colors" data-path="proceso" href="#">Proceso</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-sm rounded-lg transition-colors" data-path="sobre-nosotros" href="#">Sobre Nosotros</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-md py-space-sm rounded-lg transition-colors" data-path="contacto" href="#">Contacto</a><div class="pt-space-md mt-space-xs"><a class="flex items-center justify-center font-label-lg text-label-lg font-semibold text-on-primary-container bg-primary-container hover:bg-inverse-primary hover:text-on-primary-container rounded-lg px-space-lg h-11 w-full shadow-[0_0_20px_rgba(0,102,255,0.4)] transition-all" data-path="solicitar-presupuesto" href="#">Solicitar Presupuesto</a></div></nav></div></header><main class="w-full pt-20 bg-surface flex-1"><div class="flex flex-col w-full text-on-surface">
+<!-- HERO SECTION -->
+<section class="relative overflow-hidden py-16 lg:py-24 px-gutter-mobile lg:px-gutter max-w-[1280px] mx-auto w-full">
+<!-- Ambient Glow Dynamics -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-primary-container/15 rounded-full blur-[130px] pointer-events-none"></div>
+<div class="absolute top-48 -right-24 w-96 h-96 bg-tertiary-container/10 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center relative z-10">
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Local Mallorca Badge -->
+<div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-surface-container-high w-fit shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-md text-label-md text-on-surface uppercase tracking-wider font-semibold">
+            Especialistas en negocios locales y profesionales de Mallorca
+          </span>
+</div>
+<!-- Headline -->
+<h1 class="font-display-hero text-display-hero-mobile lg:text-display-hero text-on-surface tracking-tight font-extrabold leading-tight">
+          Tu negocio, en su <span class="bg-gradient-to-r from-primary via-tertiary to-secondary bg-clip-text text-transparent">mejor versión online</span>.
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+          Diseñamos páginas web modernas, rápidas y adaptadas a móviles para que tu negocio transmita confianza absoluta y atraiga nuevos clientes desde Palma hasta cualquier rincón de la isla.
+        </p>
+<!-- CTA Buttons -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center justify-center gap-2 font-label-lg text-label-lg font-semibold text-on-primary-container bg-primary-container hover:bg-inverse-primary rounded-lg px-space-xl h-12 shadow-[0_0_24px_rgba(0,102,255,0.45)] transition-all" href="#contacto">
+<span class="">Hablemos de tu proyecto</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 font-label-lg text-label-lg font-semibold text-on-surface bg-surface-container-high hover:bg-surface-bright rounded-lg px-space-lg h-12 transition-all shadow-sm" href="#proyectos">
+<span class="">Ver proyectos</span>
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</a>
+</div>
+<!-- Trust Value Indicators -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md pt-space-md">
+<div class="flex items-center gap-2.5 bg-surface-container-low px-3.5 py-2.5 rounded-lg">
+<span class="material-symbols-outlined text-secondary text-[22px]">check_circle</span>
+<span class="font-label-sm text-label-sm font-medium text-on-surface">Diseño 100% a medida</span>
+</div>
+<div class="flex items-center gap-2.5 bg-surface-container-low px-3.5 py-2.5 rounded-lg">
+<span class="material-symbols-outlined text-primary text-[22px]">speed</span>
+<span class="font-label-sm text-label-sm font-medium text-on-surface">Mobile First &amp; SEO</span>
+</div>
+<div class="flex items-center gap-2.5 bg-surface-container-low px-3.5 py-2.5 rounded-lg">
+<span class="material-symbols-outlined text-tertiary text-[22px]">support_agent</span>
+<span class="font-label-sm text-label-sm font-medium text-on-surface">Trato directo en Mallorca</span>
+</div>
+</div>
+</div>
+<!-- Hero Interactive Visual Composition -->
+<div class="lg:col-span-5 relative">
+<div class="relative bg-surface-container-low rounded-xl p-space-md shadow-2xl">
+<!-- Mockup Window Bar -->
+<div class="flex items-center justify-between pb-space-sm mb-space-sm bg-surface-container-highest px-3 py-2 rounded-lg">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-error"></span>
+<span class="w-3 h-3 rounded-full bg-secondary-container"></span>
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono ml-2">webs-studio.mallorca/preview</span>
+</div>
+<div class="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-secondary-container/20">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">99.8% Speed Index</span>
+</div>
+</div>
+<!-- Featured Mockup Screen Preview -->
+<div class="relative rounded-lg overflow-hidden bg-surface-container-highest group">
+<img class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High-end motorcycle racing garage website preview displayed on an ultra-modern desktop screen in dark moody Palma de Mallorca workshop lighting with crisp carbon accents and neon cyan highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4cn5xFLNuxNFJ5eNqLyPE_murWjEhidHlK75CSRDQATXCb8O7UpjwveB7gqLRF3fkFWF7em_f7CmokHXRsFWKv8Qn-D7AZyvKjQ50Mql1kfTdpZGdbm31RBIsv0vImdhLjZS6K1MC38XvLJEaJwTd95uvLgiZuPQmt89MZOY2R_aEywmCSGJai1ERpHH5Ds21DAHDy3ZzT49YY8-FsAnu7VDBpK7mL7SyDdYHdFZ_xTnuAvv5saAtAc9O2vrGkAyzLXk">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent flex flex-col justify-end p-4">
+<span class="font-label-sm text-label-sm uppercase font-bold text-secondary">Demo en vivo</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Racing Garage Mallorca</h3>
+</div>
+</div>
+<!-- Floating Metric Card 1: Lighthouse 100/100 -->
+<div class="absolute -bottom-6 -left-6 bg-surface-container-high/95 backdrop-blur-md p-space-md rounded-xl shadow-xl flex items-center gap-space-md hidden sm:flex">
+<div class="w-12 h-12 rounded-full bg-secondary/15 flex items-center justify-center">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">100</span>
+</div>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">Google Lighthouse</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Rendimiento &amp; SEO Óptimo</p>
+</div>
+</div>
+<!-- Floating Metric Card 2: Zero Maintenance Bloat -->
+<div class="absolute -top-6 -right-6 bg-surface-container-high/95 backdrop-blur-md p-space-md rounded-xl shadow-xl flex items-center gap-space-sm hidden sm:flex">
+<span class="material-symbols-outlined text-primary text-[28px]">bolt</span>
+<div>
+<p class="font-label-sm text-label-sm font-bold text-on-surface">Carga Instantánea</p>
+<p class="font-label-sm text-label-sm text-primary font-mono">&lt; 0.4s en 5G</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SERVICIOS -->
+<section class="py-20 px-gutter-mobile lg:px-gutter max-w-[1280px] mx-auto w-full" id="servicios">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-md text-label-md font-semibold uppercase tracking-wider mb-space-xs">
+          Soluciones Digitales
+        </div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg font-bold text-on-surface">
+          Todo lo que tu empresa necesita para crecer
+        </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        Desarrollo de calidad artesanal con estándares globales, pensado específicamente para el tejido empresarial de Baleares.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Card 1 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-md hover:bg-surface-container transition-all group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary mb-space-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">brush</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Diseño Web Personalizado</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+            Creamos interfaces hechas a mano que capturan la autenticidad de tu marca. Nada de plantillas genéricas que se confundan con la competencia.
+          </p>
+</div>
+<div class="flex items-center gap-2 text-primary font-label-sm text-label-sm font-semibold">
+<span class="">Identidad Gráfica Única</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-md hover:bg-surface-container transition-all group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-tertiary-container/20 flex items-center justify-center text-tertiary mb-space-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">storefront</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Webs Informativas de Alta Conversión</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+            Estructuras comerciales claras para talleres, despachos, boutiques y negocios de servicios. Guiamos a tu cliente directo al formulario o llamada.
+          </p>
+</div>
+<div class="flex items-center gap-2 text-tertiary font-label-sm text-label-sm font-semibold">
+<span class="">Enfocado a Clientes Nuevos</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-md hover:bg-surface-container transition-all group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-secondary/15 flex items-center justify-center text-secondary mb-space-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">smartphone</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Mobile First Impecable</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+            Más del 80% de tus clientes te buscarán en su smartphone. Garantizamos una fluidez táctil y tipografía legibles en todos los dispositivos.
+          </p>
+</div>
+<div class="flex items-center gap-2 text-secondary font-label-sm text-label-sm font-semibold">
+<span class="">Adaptabilidad Total</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-md hover:bg-surface-container transition-all group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary/15 flex items-center justify-center text-primary mb-space-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">rocket_launch</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Optimización y Máxima Velocidad</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+            Código sin librerías innecesarias ni servidores lentos. Logramos puntuaciones de 95-100 en Google PageSpeed, vital para posicionamiento SEO.
+          </p>
+</div>
+<div class="flex items-center gap-2 text-primary font-label-sm text-label-sm font-semibold">
+<span class="">Score 100/100 Core Vitals</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-md hover:bg-surface-container transition-all group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-tertiary/15 flex items-center justify-center text-tertiary mb-space-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">photo_library</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Catálogo &amp; Presentación de Trabajos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+            Muestra cartas de restaurante, motos modificadas, proyectos de arquitectura o reformas con galerías interactivas rápidas y visuales.
+          </p>
+</div>
+<div class="flex items-center gap-2 text-tertiary font-label-sm text-label-sm font-semibold">
+<span class="">Galerías Optimizadas</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-md hover:bg-surface-container transition-all group flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-secondary/15 flex items-center justify-center text-secondary mb-space-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">forum</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">WhatsApp Directo &amp; Despliegue Rápido</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-space-md">
+            Alojamiento moderno sin cuotas sorpresa, configuración de dominios seguros (SSL) e integración de chat directo para no perder ningún lead.
+          </p>
+</div>
+<div class="flex items-center gap-2 text-secondary font-label-sm text-label-sm font-semibold">
+<span class="">Sin Mantenimientos Forzados</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+</div>
+</section>
+<!-- PORTFOLIO DE PROYECTOS -->
+<section class="py-20 px-gutter-mobile lg:px-gutter max-w-[1280px] mx-auto w-full" id="proyectos">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-md">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-secondary font-label-md text-label-md font-semibold uppercase tracking-wider mb-space-xs">
+          Casos Reales &amp; Demos
+        </div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg font-bold text-on-surface">
+          Proyectos seleccionados
+        </h2>
+</div>
+<!-- Botón de Gestor de Proyectos para el Dueño -->
+<button class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface text-label-md font-semibold shadow-sm transition-colors" id="open-cms-btn">
+<span class="material-symbols-outlined text-[18px] text-tertiary">edit_note</span>
+<span class="">Panel de Gestión (GitHub CMS)</span>
+</button>
+</div>
+<!-- Category Filter Bar -->
+<div class="flex items-center gap-2 overflow-x-auto pb-4 mb-space-lg no-scrollbar" id="category-filters">
+<button class="filter-btn active px-4 py-2 rounded-lg font-label-md text-label-md font-semibold bg-primary-container text-on-primary-container transition-all" data-filter="all">Todos</button>
+<button class="filter-btn px-4 py-2 rounded-lg font-label-md text-label-md font-semibold bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all" data-filter="Talleres">Talleres</button>
+<button class="filter-btn px-4 py-2 rounded-lg font-label-md text-label-md font-semibold bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all" data-filter="Restaurantes">Restaurantes</button>
+<button class="filter-btn px-4 py-2 rounded-lg font-label-md text-label-md font-semibold bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all" data-filter="Servicios Profesionales">Servicios Profesionales</button>
+<button class="filter-btn px-4 py-2 rounded-lg font-label-md text-label-md font-semibold bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all" data-filter="Comercios">Comercios</button>
+</div>
+<!-- Projects Grid Container (Dynamic with JS) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg" id="projects-grid"><div class="bg-surface-container-low rounded-xl overflow-hidden shadow-md hover:bg-surface-container transition-all flex flex-col justify-between group">
+        <div>
+          <div class="relative h-52 overflow-hidden bg-surface-container-highest cursor-pointer project-img-trigger" data-id="racing-garage">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4cn5xFLNuxNFJ5eNqLyPE_murWjEhidHlK75CSRDQATXCb8O7UpjwveB7gqLRF3fkFWF7em_f7CmokHXRsFWKv8Qn-D7AZyvKjQ50Mql1kfTdpZGdbm31RBIsv0vImdhLjZS6K1MC38XvLJEaJwTd95uvLgiZuPQmt89MZOY2R_aEywmCSGJai1ERpHH5Ds21DAHDy3ZzT49YY8-FsAnu7VDBpK7mL7SyDdYHdFZ_xTnuAvv5saAtAc9O2vrGkAyzLXk" data-alt="High octane motorcycle performance workshop website hero showing dark moody garage in Mallorca with custom superbikes in electric cyan and neon blue atmospheric lighting" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-sm text-label-sm font-semibold flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              <span class="">Demostración</span>
+            </div>
+            <div class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-md bg-surface-container-high/90 text-on-surface font-label-sm text-label-sm">
+              Talleres
+            </div>
+          </div>
+          <div class="p-space-md">
+            <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface group-hover:text-primary transition-colors cursor-pointer project-title-trigger" data-id="racing-garage">
+              Racing Garage Mallorca
+            </h3>
+            <p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+              Web deportiva y agresiva para taller especializado en motos de circuito y preparaciones en Mallorca.
+            </p>
+            <div class="flex flex-wrap gap-1.5 mt-4">
+              <span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">HTML5</span><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Tailwind CSS</span><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">JavaScript</span><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Responsive</span><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">SEO Local</span>
+            </div>
+          </div>
+        </div>
+        <div class="p-space-md pt-0 flex items-center justify-between gap-2 mt-4"><button class="open-details-btn px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm font-semibold flex items-center gap-1 transition-colors" data-id="racing-garage"><span class="material-symbols-outlined text-[16px]">info</span><span class="">Ficha Detallada</span></button><div class="flex items-center gap-2"><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm font-semibold transition-colors flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">public</span><span class="">Ver Web</span></a><a href="#contacto" onclick="selectSector('Talleres')" class="px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-sm text-label-sm font-semibold hover:bg-inverse-primary transition-colors flex items-center gap-1"><span class="">Quiero una similar</span><span class="material-symbols-outlined text-[14px]">arrow_forward</span></a></div></div>
+      </div><div class="bg-surface-container-low rounded-xl overflow-hidden shadow-md hover:bg-surface-container transition-all flex flex-col justify-between group"><div><div class="relative h-52 overflow-hidden bg-surface-container-highest cursor-pointer project-img-trigger" data-id="la-brisa"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqJoSU8RWtM4vGqzo11cNxefb0zkxOygWTWGHwmpz756jt5xIB0jgFnD4QBY4ROOS5OQ4warEk5e1yTMv2L3Z1gA5THWqB3MHa52ud0ADEs6fzqbmVpPJb3-G8rxHFRIxYUh4yX93lEZClwC0eSJLEozEJaXquDwfKS47LQq5cpkqOgEa--i1wzpWi0PVcgbuLP-DZTrpL70l4hbk7H5fdGXqM61dQVWeSKUi8KCBW3wQ1O6nnyUZp0Q" alt="Terra Restaurant Mallorca" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"><div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-sm text-label-sm font-semibold flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span class="">Demostración</span></div><div class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-md bg-surface-container-high/90 text-on-surface font-label-sm text-label-sm">Restaurantes</div></div><div class="p-space-md"><div class="flex items-center justify-between gap-2"><h3 class="font-headline-sm text-headline-sm font-bold text-on-surface group-hover:text-primary transition-colors cursor-pointer project-title-trigger" data-id="la-brisa">Terra Restaurant</h3><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-container-high hover:bg-surface-bright text-primary text-label-sm font-semibold transition-colors" title="Abrir Demo / Repositorio"><span class="material-symbols-outlined text-[16px]">open_in_new</span><span class="">Demo</span></a></div><p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">Alta gastronomía mediterránea en Mallorca, experiencia culinaria inmersiva y reservas online.</p><div class="flex flex-wrap gap-1.5 mt-4"><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">UI/UX Gastronómico</span><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Mobile First</span><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Menú Digital</span><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Reserva Online</span></div></div></div><div class="p-space-md pt-0 flex items-center justify-between gap-2 mt-4"><button class="open-details-btn px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm font-semibold flex items-center gap-1 transition-colors" data-id="la-brisa"><span class="material-symbols-outlined text-[16px]">info</span><span class="">Ficha Detallada</span></button><div class="flex items-center gap-2"><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm font-semibold transition-colors flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">public</span><span class="">Ver Web</span></a><a href="#contacto" onclick="selectSector('Restaurantes')" class="px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-sm text-label-sm font-semibold hover:bg-inverse-primary transition-colors flex items-center gap-1"><span class="">Quiero una similar</span><span class="material-symbols-outlined text-[14px]">arrow_forward</span></a></div></div></div><div class="bg-surface-container-low rounded-xl overflow-hidden shadow-md hover:bg-surface-container transition-all flex flex-col justify-between group"><div><div class="relative h-52 overflow-hidden bg-surface-container-highest cursor-pointer project-img-trigger" data-id="lumina-studio"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaFDfmfYGcJj90fUy0ZoA9UcCus6WXOXZPH3sr1RGTLtsABnAJsD90ZxFbMvTAyQwXuFw8ByZtwtsXJRC87U8n2MJMGBseJN9BH2Xz32SwoJHgxsa8_tgBV6fbNuyJxdUL7yKO8l07UyWvOI3fRq6QoVoqNsEHHOaAJ_gevipKyEWZHn267gK-w4OhLWTuei8VUNvWcIWOpoL0liZW_C0fpXjJY_jmcEnJefw44otFojo8orBfzx01wA" alt="Lumina Hair Studio Mallorca" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"><div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-sm text-label-sm font-semibold flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span class="">Demostración</span></div><div class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-md bg-surface-container-high/90 text-on-surface font-label-sm text-label-sm">Servicios Profesionales</div></div><div class="p-space-md"><div class="flex items-center justify-between gap-2"><h3 class="font-headline-sm text-headline-sm font-bold text-on-surface group-hover:text-primary transition-colors cursor-pointer project-title-trigger" data-id="lumina-studio">Lumina Hair Studio</h3><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-surface-container-high hover:bg-surface-bright text-primary text-label-sm font-semibold transition-colors" title="Abrir Demo / Repositorio"><span class="material-symbols-outlined text-[16px]">open_in_new</span><span class="">Demo</span></a></div><p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">Web editorial y sofisticada para salón de peluquería de lujo en Mallorca, con carta de servicios y reserva de citas online.</p><div class="flex flex-wrap gap-1.5 mt-4"><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">UI/UX Editorial</span><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Reserva Online</span><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">CSS Moderno</span><span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Responsive</span></div></div></div><div class="p-space-md pt-0 flex items-center justify-between gap-2 mt-4"><button class="open-details-btn px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm font-semibold flex items-center gap-1 transition-colors" data-id="lumina-studio"><span class="material-symbols-outlined text-[16px]">info</span><span class="">Ficha Detallada</span></button><div class="flex items-center gap-2"><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm font-semibold transition-colors flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">public</span><span class="">Ver Web</span></a><a href="#contacto" onclick="selectSector('Servicios Profesionales')" class="px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-sm text-label-sm font-semibold hover:bg-inverse-primary transition-colors flex items-center gap-1"><span class="">Quiero una similar</span><span class="material-symbols-outlined text-[14px]">arrow_forward</span></a></div></div></div></div>
+</section>
+<!-- MODAL DE PROYECTO (FICHA DETALLADA) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md items-center justify-center p-4 flex hidden" id="project-modal">
+<div class="bg-surface-container rounded-xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-space-lg shadow-2xl relative">
+<button class="absolute top-4 right-4 p-2 rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface" id="close-modal-btn">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<div class="flex flex-col gap-space-md" id="modal-content"><div class="relative h-64 sm:h-80 rounded-lg overflow-hidden bg-surface-container-lowest"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaFDfmfYGcJj90fUy0ZoA9UcCus6WXOXZPH3sr1RGTLtsABnAJsD90ZxFbMvTAyQwXuFw8ByZtwtsXJRC87U8n2MJMGBseJN9BH2Xz32SwoJHgxsa8_tgBV6fbNuyJxdUL7yKO8l07UyWvOI3fRq6QoVoqNsEHHOaAJ_gevipKyEWZHn267gK-w4OhLWTuei8VUNvWcIWOpoL0liZW_C0fpXjJY_jmcEnJefw44otFojo8orBfzx01wA" alt="Lumina Hair Studio Mallorca" class="w-full h-full object-cover"><div class="absolute top-4 left-4 px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-sm text-label-sm font-semibold flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="">Demostración</span></div><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="absolute top-4 right-4 px-3.5 py-1.5 rounded-lg bg-surface-container-lowest/80 hover:bg-surface-container-high text-on-surface font-label-sm text-label-sm font-semibold flex items-center gap-1.5 backdrop-blur-md transition-colors"><span class="material-symbols-outlined text-[18px]">open_in_new</span><span class="">Ver Proyecto en Vivo</span></a></div><div class=""><div class="flex items-center gap-2 font-label-sm text-label-sm text-primary font-semibold uppercase"><span class="">Servicios Profesionales &amp; Belleza</span><span class="">•</span><span class="">Webs Studio Mallorca Edition</span></div><h2 class="font-headline-lg text-headline-lg font-bold text-on-surface mt-1">Lumina Hair Studio</h2></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Web editorial y sofisticada para salón de peluquería y estética de lujo en Mallorca. Presenta una estética oscura y minimalista con iluminación cálida, carta de servicios premium y sistema de reserva de citas online optimizado para turistas y residentes.</p><div class=""><h4 class="font-label-lg text-label-lg font-bold text-on-surface mb-2">Funcionalidades Clave:</h4><ul class="flex flex-col gap-2"><li class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span><span class="">Catálogo interactivo de servicios de peluquería y tratamientos con tarifas</span></li><li class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span><span class="">Sistema de solicitud y reserva de cita previa online integrado</span></li><li class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span><span class="">Fotografía de moda editorial con tiempos de carga ultrarrápidos (&lt;0.5s)</span></li><li class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span><span class="">Contacto directo y confirmación de citas por WhatsApp</span></li></ul></div><div class="flex flex-wrap gap-2 pt-2"><span class="px-2.5 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm font-mono">UI/UX Editorial</span><span class="px-2.5 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm font-mono">Reserva Online</span><span class="px-2.5 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm font-mono">CSS Moderno</span><span class="px-2.5 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm font-mono">Responsive</span></div><div class="pt-4 flex flex-col sm:flex-row items-center justify-between gap-space-sm border-t border-surface-container-highest"><button onclick="document.getElementById('project-modal').classList.add('hidden')" class="w-full sm:w-auto px-4 py-2.5 rounded-lg bg-surface-container-high text-on-surface hover:bg-surface-bright font-label-md text-label-md">Cerrar Ficha</button><div class="flex items-center gap-space-sm w-full sm:w-auto"><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-4 py-2.5 rounded-lg bg-surface-container-high text-on-surface hover:bg-surface-bright font-label-md text-label-md font-semibold flex items-center justify-center gap-1.5 transition-colors"><span class="material-symbols-outlined text-[18px]">code</span><span class="">Ver Repositorio / Web</span></a><a href="#contacto" onclick="selectSector('Servicios Profesionales'); document.getElementById('project-modal').classList.add('hidden')" class="w-full sm:w-auto px-6 py-2.5 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold hover:bg-inverse-primary shadow-md flex items-center justify-center gap-2"><span class="">Quiero una web similar para mi negocio</span><span class="material-symbols-outlined text-[16px]">arrow_forward</span></a></div></div></div>
+</div>
+</div>
+<!-- PANEL CMS MODAL (Para gestión estática / GitHub Pages) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md items-center justify-center p-4 hidden" id="cms-modal">
+<div class="bg-surface-container rounded-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-space-lg shadow-2xl relative flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm bg-surface-container-low px-4 py-3 rounded-lg">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary">database</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Gestor de Proyectos (Modo GitHub Decap)</h3>
+</div>
+<button class="p-1.5 rounded-full hover:bg-surface-container-high text-on-surface-variant" id="close-cms-btn">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Agrega un nuevo proyecto localmente. Puedes previsualizarlo al instante o exportar el esquema <code class="bg-surface-container-highest px-1.5 py-0.5 rounded text-tertiary">projects.json</code> para guardarlo en tu repositorio de GitHub sin servidores de base de datos.
+      </p>
+<form class="flex flex-col gap-space-sm" id="new-project-form">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant font-medium">Nombre del Proyecto</label>
+<input class="w-full h-11 px-3 bg-surface-container-low rounded-lg text-on-surface font-body-sm focus:outline-none focus:bg-surface-container-high" id="proj-title" placeholder="Ej: Portals Nautical Services" required="">
+</div>
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant font-medium">Categoría</label>
+<select class="w-full h-11 px-3 bg-surface-container-low rounded-lg text-on-surface font-body-sm focus:outline-none" id="proj-category">
+<option value="Talleres">Talleres</option>
+<option value="Restaurantes">Restaurantes</option>
+<option value="Servicios Profesionales">Servicios Profesionales</option>
+<option value="Comercios">Comercios</option>
+<option value="Otros">Otros</option>
+</select>
+</div>
+</div>
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant font-medium">Descripción Breve</label>
+<input class="w-full h-11 px-3 bg-surface-container-low rounded-lg text-on-surface font-body-sm focus:outline-none" id="proj-desc" placeholder="Web de reservas y catálogo técnico optimizada..." required="">
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant font-medium">Estado</label>
+<input class="w-full h-11 px-3 bg-surface-container-low rounded-lg text-on-surface font-body-sm focus:outline-none" id="proj-status" value="Demostración">
+</div>
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant font-medium">Etiquetas (separadas por coma)</label>
+<input class="w-full h-11 px-3 bg-surface-container-low rounded-lg text-on-surface font-body-sm focus:outline-none" id="proj-tags" value="HTML5, Tailwind, Responsive">
+</div>
+</div>
+<div class="pt-space-xs flex items-center justify-end gap-space-sm">
+<button class="px-4 py-2 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-bright transition-colors flex items-center gap-1.5" id="download-json-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span class="">Descargar JSON</span>
+</button>
+<button class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold hover:bg-inverse-primary shadow-md transition-colors flex items-center gap-1.5" type="submit">
+<span class="material-symbols-outlined text-[18px]">add_circle</span>
+<span class="">Añadir a la Galería</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<!-- PROCESO DE TRABAJO -->
+<section class="py-20 px-gutter-mobile lg:px-gutter max-w-[1280px] mx-auto w-full" id="proceso">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-tertiary font-label-md text-label-md font-semibold uppercase tracking-wider mb-space-xs">
+        Metodología Transparente
+      </div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg font-bold text-on-surface">
+        Tu nueva web en 3 sencillos pasos
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+        Sin jerga técnica confusa, sin retrasos eternos y con comunicación personal directa.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg relative">
+<!-- Paso 1 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-md flex flex-col justify-between relative overflow-hidden">
+<span class="absolute top-2 right-4 font-display-hero text-display-hero text-surface-container-highest/20 font-black pointer-events-none">01</span>
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">coffee</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">1. Nos conocemos y definimos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Una llamada. Escuchamos qué hace especial a tu negocio, qué busca tu cliente habitual y qué objetivos concretos necesitas conseguir.
+          </p>
+</div>
+<div class="pt-space-md text-primary font-label-sm text-label-sm font-semibold">
+          Fase de diagnóstico gratuito
+        </div>
+</div>
+<!-- Paso 2 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-md flex flex-col justify-between relative overflow-hidden">
+<span class="absolute top-2 right-4 font-display-hero text-display-hero text-surface-container-highest/20 font-black pointer-events-none">02</span>
+<div>
+<div class="w-12 h-12 rounded-lg bg-tertiary-container/20 flex items-center justify-center text-tertiary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">design_services</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">2. Diseñamos la propuesta</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Te mostramos un prototipo real e interactivo. Nada de wireframes aburridos: una web tangible para que sientas cómo responderán tus visitantes.
+          </p>
+</div>
+<div class="pt-space-md text-tertiary font-label-sm text-label-sm font-semibold">
+          Ajustes y revisión conjunta
+        </div>
+</div>
+<!-- Paso 3 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl shadow-md flex flex-col justify-between relative overflow-hidden">
+<span class="absolute top-2 right-4 font-display-hero text-display-hero text-surface-container-highest/20 font-black pointer-events-none">03</span>
+<div>
+<div class="w-12 h-12 rounded-lg bg-secondary/15 flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">public</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">3. Revisión &amp; Publicación</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Conectamos tu dominio, configuramos el certificado de seguridad SSL y las herramientas de análisis. Tu negocio abre sus puertas digitales.
+          </p>
+</div>
+<div class="pt-space-md text-secondary font-label-sm text-label-sm font-semibold">
+          Web lista para recibir clientes
+        </div>
+</div>
+</div>
+<!-- CTA strip -->
+<div class="mt-space-xl bg-gradient-to-r from-surface-container-low via-surface-container to-surface-container-low p-space-lg rounded-xl flex flex-col sm:flex-row items-center justify-between gap-space-md shadow-lg">
+<div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">¿Listo para dar el paso con tu negocio?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Presupuesto transparente y cerrado sin sorpresas.</p>
+</div>
+<a class="inline-flex items-center gap-2 font-label-lg text-label-lg font-semibold text-on-primary-container bg-primary-container hover:bg-inverse-primary rounded-lg px-space-lg h-11 shadow-[0_0_16px_rgba(0,102,255,0.4)] transition-all shrink-0" href="#contacto">
+<span class="">Solicitar Presupuesto</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</a>
+</div>
+</section>
+<!-- SOBRE NOSOTROS -->
+<section class="py-20 px-gutter-mobile lg:px-gutter max-w-[1280px] mx-auto w-full" id="sobre-nosotros">
+<div class="bg-surface-container-low rounded-xl p-space-xl shadow-md">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-md text-label-md font-semibold uppercase tracking-wider w-fit">
+            Proximidad y Artesanía Web&nbsp;</div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg font-bold text-on-surface">
+            Trato directo, sin agencias infladas
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Webs Studio nace con una premisa honesta: muchas empresas pagan fortunas a grandes agencias por webs lentas basadas en plantillas prediseñadas que jamás terminan de satisfacer sus necesidades reales.
+          </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Nosotros trabajamos mano a mano con el propietario del negocio. Diseñamos con código limpio, arquitectura estática ultraeficiente y un gusto visual contemporáneo que posiciona tu proyecto al nivel de los líderes de tu sector.
+          </p>
+<div class="grid grid-cols-2 gap-space-md pt-space-xs">
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary">verified</span>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">Sin cuotas mensuales obligatorias</span>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary">verified</span>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">Tu web te pertenece al 100%</span>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary">verified</span>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">Soporte directo por WhatsApp</span>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-secondary">verified</span>
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">Entrega rápida en semanas</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-6 relative">
+<div class="relative rounded-xl overflow-hidden shadow-2xl bg-surface-container">
+<img class="w-full h-80 object-cover" data-alt="Modern creative tech design workspace in Palma de Mallorca overlooking the historic stone architecture through large minimalist windows with high-tech dual monitor setup displaying elegant web design code" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARVTrg6_6bENOl2FgwAL8DXG-hJHcAS6c2605MKQaDPtgEuw_tzD3eEP_a4DYnPQAXCRUJwYBMU-EqkpFfBjt723Kx3cmCrwSYqnjccS7yRntdSjVqOCONHo3GLlXZ8wHMFcWq1Al-rVwcuOqUan40m7MeeVjHzuCg-dK2nV92Xlap9d_E9Nx1wr3h_s5xkqv_bNYsRWYLqo2EPoAMEMGKb4h3rybD89cBQmUR6xtvFJUx9akAi1Ao1w">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-space-md">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[20px]">palette</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg font-bold text-on-surface">Webs Studio&nbsp;</h4>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Creatividad y Tecnología Balear</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PREGUNTAS FRECUENTES (FAQ ACORDEÓN) -->
+<section class="py-20 px-gutter-mobile lg:px-gutter max-w-[960px] mx-auto w-full">
+<div class="text-center mb-space-xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-md text-label-md font-semibold uppercase tracking-wider mb-space-xs">
+        Dudas Resueltas
+      </div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg font-bold text-on-surface">
+        Preguntas Frecuentes
+      </h2>
+</div>
+<div class="flex flex-col gap-space-sm" id="faq-accordion">
+<!-- FAQ 1 -->
+<div class="faq-item bg-surface-container-low rounded-xl overflow-hidden transition-all">
+<button class="faq-toggle w-full p-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm font-semibold text-on-surface hover:text-primary transition-colors">
+<span class="">¿Cuánto tiempo se tarda en crear una web?</span>
+<span class="material-symbols-outlined text-[20px] faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-answer px-space-md pb-space-md font-body-sm text-body-sm text-on-surface-variant hidden">
+          Para una página corporativa o informativa estándar, el plazo habitual es de 2 a 3 semanas desde que disponemos de los textos y fotografías básicas. Mantenemos comunicación semanal directa para que veas el progreso en tiempo real.
+        </div>
+</div>
+<!-- FAQ 2 -->
+<div class="faq-item bg-surface-container-low rounded-xl overflow-hidden transition-all">
+<button class="faq-toggle w-full p-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm font-semibold text-on-surface hover:text-primary transition-colors">
+<span class="">¿Qué incluye el presupuesto de desarrollo?</span>
+<span class="material-symbols-outlined text-[20px] faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-answer px-space-md pb-space-md font-body-sm text-body-sm text-on-surface-variant hidden">
+          Incluye todo lo necesario: diseño gráfico a medida, maquetación adaptable a móviles (mobile-first), optimización de velocidad Core Web Vitals, integración con WhatsApp y formularios, configuración técnica de dominio y certificado de seguridad SSL.
+        </div>
+</div>
+<!-- FAQ 3 -->
+<div class="faq-item bg-surface-container-low rounded-xl overflow-hidden transition-all">
+<button class="faq-toggle w-full p-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm font-semibold text-on-surface hover:text-primary transition-colors">
+<span class="">¿Tendré que pagar cuotas mensuales obligatorias?</span>
+<span class="material-symbols-outlined text-[20px] faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-answer px-space-md pb-space-md font-body-sm text-body-sm text-on-surface-variant hidden">
+          No. No te atamos a contratos de permanencia ni cobros mensuales encubiertos. La web es tuya en propiedad. Únicamente pagarás tu dominio y hosting estándar (que con nuestra arquitectura moderna suele costar entre 0€ y 15€ al año en vez de cientos de euros).
+        </div>
+</div>
+<!-- FAQ 4 -->
+<div class="faq-item bg-surface-container-low rounded-xl overflow-hidden transition-all">
+<button class="faq-toggle w-full p-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm font-semibold text-on-surface hover:text-primary transition-colors">
+<span class="">¿Puedo actualizar mis proyectos o contenidos yo mismo?</span>
+<span class="material-symbols-outlined text-[20px] faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-answer px-space-md pb-space-md font-body-sm text-body-sm text-on-surface-variant hidden">
+          Sí. Entregamos un sistema ligero y visual preparado para que puedas añadir proyectos, platos o noticias sin tocar código complejo, o si lo prefieres, nos puedes pedir cambios puntuales en cualquier momento con respuesta en menos de 24 horas.
+        </div>
+</div>
+<!-- FAQ 5 -->
+<div class="faq-item bg-surface-container-low rounded-xl overflow-hidden transition-all">
+<button class="faq-toggle w-full p-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm font-semibold text-on-surface hover:text-primary transition-colors">
+<span class="">¿Cómo me garantiza que se verá bien en móviles?</span>
+<span class="material-symbols-outlined text-[20px] faq-icon transition-transform">expand_more</span>
+</button>
+<div class="faq-answer px-space-md pb-space-md font-body-sm text-body-sm text-on-surface-variant hidden">
+          Diseñamos bajo la filosofía Mobile-First. Probamos exhaustivamente cada sección en pantallas de smartphones Apple y Android, verificando que los botones se toquen con facilidad y que los menús se abran con fluidez táctil instantánea.
+        </div>
+</div>
+</div>
+</section>
+<!-- FORMULARIO DE CONTACTO PROFESIONAL -->
+<section class="py-20 px-gutter-mobile lg:px-gutter max-w-[1280px] mx-auto w-full" id="contacto">
+<div class="bg-surface-container-low rounded-xl p-space-lg lg:p-space-xl shadow-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Info Column -->
+<div class="lg:col-span-5 flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-secondary font-label-md text-label-md font-semibold uppercase tracking-wider mb-space-xs">
+              Hablemos Hoy
+            </div>
+<h2 class="font-headline-lg text-headline-lg-mobile lg:text-headline-lg font-bold text-on-surface mb-space-sm">
+              Empieza la transformación digital de tu marca
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg leading-relaxed">
+              Cuéntanos en 2 minutos qué necesitas. Te responderemos el mismo día con una valoración orientativa y recomendaciones sinceras para tu caso.
+            </p>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Ubicación</p>
+<p class="font-label-md text-label-md font-bold text-on-surface">Mallorca</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Correo Electrónico</p>
+<a class="font-label-md text-label-md font-bold text-on-surface hover:text-primary" href="mailto:info@websstudio.com">webslocalstudio@gmail.com</a>
+</div>
+</div>
+</div>
+</div>
+<!-- WhatsApp Direct Card -->
+<div class="mt-space-lg bg-surface-container p-space-md rounded-xl flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-semibold uppercase">¿Prefieres rapidez?</span>
+<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Escríbenos directamente por WhatsApp y te atendemos sobre la marcha.</p>
+<a class="mt-space-xs inline-flex items-center justify-center gap-2 bg-secondary text-on-secondary font-label-md text-label-md font-semibold px-4 py-2.5 rounded-lg shadow-md hover:bg-secondary-fixed transition-colors" href="https://wa.me/34600000000?text=Hola%20Webs%20Studio,%20quiero%20información%20para%20crear%20una%20web" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="">Abrir WhatsApp Mallorca</span>
+</a>
+</div>
+</div>
+<!-- Form Column -->
+<div class="lg:col-span-7 bg-surface-container p-space-md sm:p-space-lg rounded-xl shadow-inner">
+<form class="flex flex-col gap-space-md" id="contact-form">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-sm text-label-sm font-semibold text-on-surface mb-1">Nombre Completo *</label>
+<input class="w-full h-12 px-space-md bg-surface-container-low rounded-lg text-on-surface font-body-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="form-name" placeholder="Tu nombre" required="" type="text">
+</div>
+<div>
+<label class="block font-label-sm text-label-sm font-semibold text-on-surface mb-1">Nombre del Negocio (Opcional)</label>
+<input class="w-full h-12 px-space-md bg-surface-container-low rounded-lg text-on-surface font-body-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="form-business" placeholder="Ej: Restaurante El Faro" type="text">
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-sm text-label-sm font-semibold text-on-surface mb-1">Correo Electrónico *</label>
+<input class="w-full h-12 px-space-md bg-surface-container-low rounded-lg text-on-surface font-body-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="form-email" placeholder="ejemplo@negocio.com" required="" type="email">
+</div>
+<div>
+<label class="block font-label-sm text-label-sm font-semibold text-on-surface mb-1">Tipo de Web / Sector</label>
+<select class="w-full h-12 px-space-md bg-surface-container-low rounded-lg text-on-surface font-body-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="form-type">
+<option value="Taller">Taller / Motor</option>
+<option value="Restaurante">Restaurante / Cafetería</option>
+<option value="Comercio">Comercio / Tienda Local</option>
+<option value="Profesional">Servicios Profesionales / Abogado / Consultor</option>
+<option value="Otro">Otro proyecto</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm font-semibold text-on-surface mb-1">Presupuesto Orientativo</label>
+<select class="w-full h-12 px-space-md bg-surface-container-low rounded-lg text-on-surface font-body-sm focus:outline-none" id="form-budget">
+<option value="starter">Plan Esencial (Presupuesto ajustado)</option>
+<option selected="" value="pro">Plan Profesional (Web a medida + Catálogo/Reservas)</option>
+<option value="custom">Proyecto Avanzado / E-Commerce</option>
+</select>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm font-semibold text-on-surface mb-1">Cuéntanos sobre tu proyecto *</label>
+<textarea class="w-full p-space-md bg-surface-container-low rounded-lg text-on-surface font-body-sm focus:outline-none focus:bg-surface-container-high transition-colors resize-none" id="form-message" placeholder="¿Qué objetivos tienes? ¿Tienes ya dominio o fotografías?..." required="" rows="4"></textarea>
+</div>
+<div class="flex items-center gap-2">
+<input class="rounded bg-surface-container-low text-primary focus:ring-0" id="form-privacy" required="" type="checkbox">
+<label class="font-label-sm text-label-sm text-on-surface-variant" for="form-privacy">Acepto la política de privacidad y el tratamiento de mis datos para esta consulta.</label>
+</div>
+<button class="w-full h-12 rounded-lg bg-primary-container hover:bg-inverse-primary text-on-primary-container font-label-lg text-label-lg font-semibold shadow-[0_0_20px_rgba(0,102,255,0.4)] transition-all flex items-center justify-center gap-2" type="submit">
+<span class="">Enviar Consulta sin Compromiso</span>
+<span class="material-symbols-outlined text-[20px]">send</span>
+</button>
+<!-- Success Alert Notification -->
+<div class="hidden p-space-md rounded-lg bg-secondary-container/20 text-secondary font-label-md text-label-md text-center" id="form-success">
+              ¡Mensaje enviado con éxito! Te contactaremos antes de 24 horas laborables.
+            </div>
+</form>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- INTERACTIVE SCRIPTS: FILTERS, PROJECTS DATASET, MODALS, ACCORDION & CMS SIMULATOR -->
+<script>
+(function() {
+  // Base Projects Dataset
+  const projectsData = [
+    {
+      id: "racing-garage",
+      title: "Racing Garage Mallorca",
+      category: "Talleres",
+      status: "Demostración",
+      image: "placeholder",
+      imageAlt: "High octane motorcycle performance workshop website hero showing dark moody garage in Mallorca with custom superbikes in electric cyan and neon blue atmospheric lighting",
+      shortDesc: "Web deportiva y agresiva para taller especializado en motos de circuito y preparaciones en Mallorca.",
+      fullDesc: "Plataforma integral diseñada para potenciar la presencia online de un taller especializado en competición y mecánica avanzada en Palma. Presenta una arquitectura modular de fichas de proyecto, especificaciones técnicas de motos, solicitud de cita previa para banco de potencia y botón de contacto inmediato por WhatsApp.",
+      tags: ["HTML5", "Tailwind CSS", "JavaScript", "Responsive", "SEO Local"],
+      features: [
+        "Catálogo de preparaciones mecánicas con fichas de especificaciones",
+        "Formulario directo para reserva de cita en taller",
+        "Optimización de carga instantánea con imágenes WebP",
+        "Llamada a la acción rápida orientada a pilotos locales"
+      ],
+      demoUrl: "#"
+    },
+    {
+      id: "la-brisa",
+      title: "La Brisa Restaurant",
+      category: "Restaurantes",
+      status: "Demostración",
+      image: "placeholder",
+      imageAlt: "Luxury Mediterranean coastal restaurant website showing exquisite grilled octopus seafood dish on a rustic dark stone table overlooking the Portals yacht bay during sunset",
+      shortDesc: "Experiencia culinaria mediterránea, menú interactivo y reserva de mesa frente al mar.",
+      fullDesc: "Sitio web elegante y acogedor para un restaurante de alta cocina balear. Combina la atmósfera mediterránea con un sistema visual de menú interactivo con detalles de alérgenos y módulo intuitivo para solicitar reservas de mesa para comidas o eventos privados.",
+      tags: ["UI/UX Gastronómico", "Mobile First", "Menú Digital", "Reserva Online"],
+      features: [
+        "Carta digital categorizada con precios y detalles gastronómicos",
+        "Widget de reserva de mesa con selección de fecha y comensales",
+        "Galería fotográfica de platos locales de temporada",
+        "Integración con Google Maps para fácil localización de turistas"
+      ],
+      demoUrl: "#"
+    },
+    {
+      id: "alex-rivera",
+      title: "Alex Rivera Portfolio",
+      category: "Servicios Profesionales",
+      status: "Demostración",
+      image: "placeholder",
+      imageAlt: "Modern ultra-clean dark software developer portfolio on sleek desktop screen showcasing clean code editor snippet and glassmorphic user interface elements",
+      shortDesc: "Portfolio minimalista para consultor tecnológico y desarrollador frontend con proyectos destacados.",
+      fullDesc: "Identidad online vanguardista para perfiles técnicos y consultores independientes. Desarrollada para destacar casos de éxito, habilidades técnicas clave, repositorio de código y descarga directa de dossier profesional.",
+      tags: ["Minimalismo", "Clean Code", "High-Performance", "Dark Glass"],
+      features: [
+        "Presentación interactiva de stack tecnológico y experiencia",
+        "Mosaico de proyectos con vistas previas interactivas",
+        "Descarga directa de CV / Dossier corporativo en un clic",
+        "Formulario de contratación y contacto profesional"
+      ],
+      demoUrl: "#"
+    }
+  ];
+
+  let currentCategory = 'all';
+
+  // Render Projects Grid
+  function renderProjects() {
+    const grid = document.getElementById('projects-grid');
+    if (!grid) return;
+    
+    grid.innerHTML = '';
+    
+    const filtered = currentCategory === 'all' 
+      ? projectsData 
+      : projectsData.filter(p => p.category.toLowerCase() === currentCategory.toLowerCase());
+
+    if (filtered.length === 0) {
+      grid.innerHTML = `
+        <div class="col-span-full py-12 text-center text-on-surface-variant font-body-md">
+          No hay proyectos registrados en esta categoría actualmente.
+        </div>`;
+      return;
+    }
+
+    filtered.forEach(p => {
+      const card = document.createElement('div');
+      card.className = "bg-surface-container-low rounded-xl overflow-hidden shadow-md hover:bg-surface-container transition-all flex flex-col justify-between group";
+      card.innerHTML = `
+        <div>
+          <div class="relative h-52 overflow-hidden bg-surface-container-highest cursor-pointer project-img-trigger" data-id="${p.id}">
+            <img src="${p.image}" data-alt="${p.imageAlt}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-sm text-label-sm font-semibold flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              <span>${p.status}</span>
+            </div>
+            <div class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-md bg-surface-container-high/90 text-on-surface font-label-sm text-label-sm">
+              ${p.category}
+            </div>
+          </div>
+          <div class="p-space-md">
+            <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface group-hover:text-primary transition-colors cursor-pointer project-title-trigger" data-id="${p.id}">
+              ${p.title}
+            </h3>
+            <p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+              ${p.shortDesc}
+            </p>
+            <div class="flex flex-wrap gap-1.5 mt-4">
+              ${p.tags.map(t => `<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">${t}</span>`).join('')}
+            </div>
+          </div>
+        </div>
+        <div class="p-space-md pt-0 flex items-center justify-between gap-2 mt-4">
+          <button class="open-details-btn px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-sm text-label-sm font-semibold flex items-center gap-1 transition-colors" data-id="${p.id}">
+            <span class="material-symbols-outlined text-[16px]">info</span>
+            <span>Ficha Detallada</span>
+          </button>
+          <a href="#contacto" onclick="selectSector('${p.category}')" class="px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-sm text-label-sm font-semibold hover:bg-inverse-primary transition-colors flex items-center gap-1">
+            <span>Quiero una similar</span>
+            <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+          </a>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+
+    // Attach trigger listeners
+    document.querySelectorAll('.open-details-btn, .project-img-trigger, .project-title-trigger').forEach(el => {
+      el.addEventListener('click', () => {
+        const id = el.getAttribute('data-id');
+        openProjectModal(id);
+      });
+    });
+  }
+
+  // Filter Bar Interaction
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterButtons.forEach(b => {
+        b.classList.remove('bg-primary-container', 'text-on-primary-container');
+        b.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+      });
+      btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+      btn.classList.add('bg-primary-container', 'text-on-primary-container');
+      
+      currentCategory = btn.getAttribute('data-filter');
+      renderProjects();
+    });
+  });
+
+  // Modal Open & Close logic
+  const projectModal = document.getElementById('project-modal');
+  const modalContent = document.getElementById('modal-content');
+  const closeModalBtn = document.getElementById('close-modal-btn');
+
+  function openProjectModal(id) {
+    const project = projectsData.find(p => p.id === id);
+    if (!project) return;
+
+    modalContent.innerHTML = `
+      <div class="relative h-64 sm:h-80 rounded-lg overflow-hidden bg-surface-container-lowest">
+        <img src="${project.image}" data-alt="${project.imageAlt}" class="w-full h-full object-cover">
+        <div class="absolute top-4 left-4 px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-sm text-label-sm font-semibold flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-secondary"></span>
+          <span>${project.status}</span>
+        </div>
+      </div>
+      <div>
+        <div class="flex items-center gap-2 font-label-sm text-label-sm text-primary font-semibold uppercase">
+          <span>${project.category}</span>
+          <span>•</span>
+          <span>Webs Studio Mallorca Edition</span>
+        </div>
+        <h2 class="font-headline-lg text-headline-lg font-bold text-on-surface mt-1">${project.title}</h2>
+      </div>
+      <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+        ${project.fullDesc}
+      </p>
+      
+      <div>
+        <h4 class="font-label-lg text-label-lg font-bold text-on-surface mb-2">Funcionalidades Clave:</h4>
+        <ul class="flex flex-col gap-2">
+          ${project.features.map(f => `
+            <li class="flex items-start gap-2 font-body-sm text-body-sm text-on-surface-variant">
+              <span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span>
+              <span>${f}</span>
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+
+      <div class="flex flex-wrap gap-2 pt-2">
+        ${project.tags.map(t => `<span class="px-2.5 py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm font-mono">${t}</span>`).join('')}
+      </div>
+
+      <div class="pt-4 flex flex-col sm:flex-row items-center justify-between gap-space-sm border-t border-surface-container-highest">
+        <button onclick="document.getElementById('project-modal').classList.add('hidden')" class="w-full sm:w-auto px-4 py-2.5 rounded-lg bg-surface-container-high text-on-surface hover:bg-surface-bright font-label-md text-label-md">
+          Cerrar Ficha
+        </button>
+        <a href="#contacto" onclick="selectSector('${project.category}'); document.getElementById('project-modal').classList.add('hidden')" class="w-full sm:w-auto px-6 py-2.5 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold hover:bg-inverse-primary shadow-md flex items-center justify-center gap-2">
+          <span>Quiero una web similar para mi negocio</span>
+          <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+        </a>
+      </div>
+    `;
+
+    projectModal.classList.remove('hidden');
+    projectModal.classList.add('flex');
+  }
+
+  if (closeModalBtn) {
+    closeModalBtn.addEventListener('click', () => {
+      projectModal.classList.add('hidden');
+      projectModal.classList.remove('flex');
+    });
+  }
+
+  // Pre-fill Sector Select on contact form
+  window.selectSector = function(category) {
+    const typeSelect = document.getElementById('form-type');
+    if (!typeSelect) return;
+    if (category.includes('Taller')) typeSelect.value = 'Taller';
+    else if (category.includes('Restaurante')) typeSelect.value = 'Restaurante';
+    else if (category.includes('Comercio')) typeSelect.value = 'Comercio';
+    else if (category.includes('Profesional')) typeSelect.value = 'Profesional';
+    else typeSelect.value = 'Otro';
+  };
+
+  // CMS Modal Management
+  const cmsModal = document.getElementById('cms-modal');
+  const openCmsBtn = document.getElementById('open-cms-btn');
+  const closeCmsBtn = document.getElementById('close-cms-btn');
+  const newProjectForm = document.getElementById('new-project-form');
+  const downloadJsonBtn = document.getElementById('download-json-btn');
+
+  if (openCmsBtn && cmsModal) {
+    openCmsBtn.addEventListener('click', () => {
+      cmsModal.classList.remove('hidden');
+      cmsModal.classList.add('flex');
+    });
+  }
+
+  if (closeCmsBtn && cmsModal) {
+    closeCmsBtn.addEventListener('click', () => {
+      cmsModal.classList.add('hidden');
+      cmsModal.classList.remove('flex');
+    });
+  }
+
+  if (newProjectForm) {
+    newProjectForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const title = document.getElementById('proj-title').value;
+      const category = document.getElementById('proj-category').value;
+      const desc = document.getElementById('proj-desc').value;
+      const status = document.getElementById('proj-status').value || "Demostración";
+      const tags = document.getElementById('proj-tags').value.split(',').map(s => s.trim());
+
+      const newId = title.toLowerCase().replace(/[^a-z0-9]/g, '-');
+      const newProj = {
+        id: newId,
+        title: title,
+        category: category,
+        status: status,
+        image: "placeholder",
+        imageAlt: "Digital presentation of " + title + " crafted for prestigious Mallorca business presence",
+        shortDesc: desc,
+        fullDesc: desc + " Diseñado a medida con optimización técnica para el entorno balear.",
+        tags: tags,
+        features: [
+          "Diseño 100% responsivo para smartphones y tablets",
+          "Velocidad de carga de nivel élite",
+          "Integración de llamadas a la acción directas"
+        ],
+        demoUrl: "#"
+      };
+
+      projectsData.unshift(newProj);
+      renderProjects();
+      newProjectForm.reset();
+      cmsModal.classList.add('hidden');
+      cmsModal.classList.remove('flex');
+    });
+  }
+
+  if (downloadJsonBtn) {
+    downloadJsonBtn.addEventListener('click', () => {
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(projectsData, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", "projects.json");
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+    });
+  }
+
+  // FAQ Accordion
+  const faqToggles = document.querySelectorAll('.faq-toggle');
+  faqToggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const answer = toggle.nextElementSibling;
+      const icon = toggle.querySelector('.faq-icon');
+      const isExpanded = !answer.classList.contains('hidden');
+
+      // Close all
+      document.querySelectorAll('.faq-answer').forEach(a => a.classList.add('hidden'));
+      document.querySelectorAll('.faq-icon').forEach(i => i.classList.remove('rotate-180'));
+
+      if (!isExpanded) {
+        answer.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      }
+    });
+  });
+
+  // Contact Form Submission (Mailto / Local Sim)
+  const contactForm = document.getElementById('contact-form');
+  const formSuccess = document.getElementById('form-success');
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('form-name').value;
+      const business = document.getElementById('form-business').value;
+      const email = document.getElementById('form-email').value;
+      const type = document.getElementById('form-type').value;
+      const msg = document.getElementById('form-message').value;
+
+      formSuccess.classList.remove('hidden');
+      contactForm.reset();
+
+      setTimeout(() => {
+        formSuccess.classList.add('hidden');
+      }, 6000);
+    });
+  }
+
+  // Initial Render
+  renderProjects();
+
+})();
+</script></main><footer class="w-full bg-surface-container-lowest text-on-surface-variant mt-auto"><div class="max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl mb-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Webs Studio Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VKwQzaPyRKV8BA3J5ULgTB_b80fvKqRYIQUfYhkZ0rFeI3TZEPJ_4Hk4iFtUHH0huksXDhTG6fG5-JEZ5D5GAPKVC8oAvBGGPKkDRT9pd6o-FaWeR_f6Rd6uI2nw_MRLrnqHyDgmLBwPigSQg_UEQBjawvXbnxPdplgGnFdI901fZx9gBl3TqZBwbnruLeRg_3km3uQ46YKClkBbYEX0YMvxzB6bi6gOW0xlbahYfUCuJdO2VmbV3M3YI6"><span class="font-headline-sm text-headline-sm font-bold text-on-surface tracking-tight">Webs Studio</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-sm">Estudio de diseño y desarrollo web de alto rendimiento. Construimos experiencias digitales inmersivas y arquitectura de software orientada a la conversión para marcas líderes y empresas locales.</p><div class="inline-flex items-center gap-space-xs px-3 py-1.5 rounded-full bg-surface-container-high w-fit"><span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span><span class="font-label-sm text-label-sm text-secondary font-medium">Local Mallorca Business Focus</span></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg font-semibold text-on-surface uppercase tracking-wider">Navegación</h4><div class="flex flex-col gap-space-xs"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Inicio</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Servicios</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Proyectos</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Proceso</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#">Sobre Nosotros</a></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg font-semibold text-on-surface uppercase tracking-wider">Servicios</h4><div class="flex flex-col gap-space-xs"><span class="font-body-sm text-body-sm text-on-surface-variant">Desarrollo Web a Medida</span><span class="font-body-sm text-body-sm text-on-surface-variant">Diseño UI/UX de Alto Rendimiento</span><span class="font-body-sm text-body-sm text-on-surface-variant">E-Commerce &amp; Pasarelas</span><span class="font-body-sm text-body-sm text-on-surface-variant">Optimización &amp; SEO Técnico</span><span class="font-body-sm text-body-sm text-on-surface-variant">Sistemas Cloud &amp; Mantenimiento</span></div></div><div class="lg:col-span-3 flex flex-col gap-space-md"><h4 class="font-label-lg text-label-lg font-semibold text-on-surface uppercase tracking-wider">Contacto Directo</h4><div class="flex flex-col gap-space-sm font-body-sm text-body-sm"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-primary text-[20px]">location_on</span><span class="">Mallorca, Islas Baleares</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-primary text-[20px]">mail</span><a class="hover:text-on-surface transition-colors" href="mailto:info@websstudio.com">webslocalstudio@gmail.com</a></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[20px]">chat</span><a class="text-secondary font-semibold hover:text-secondary-fixed transition-colors" href="#">WhatsApp Directo Mallorca</a></div></div></div></div><div class="pt-space-lg bg-surface-container-low/50 -mx-gutter-mobile lg:-mx-gutter px-gutter-mobile lg:px-gutter flex flex-col md:flex-row items-center justify-between gap-space-md text-center md:text-left"><div class="flex flex-col sm:flex-row items-center gap-space-xs sm:gap-space-md font-label-md text-label-md text-on-surface-variant"><span class="">© 2025 Webs Studio Mallorca. Todos los derechos reservados.</span><span class="">Crafted with High-Performance Tech Stack</span></div><div class="flex items-center gap-space-md font-label-md text-label-md"><a class="text-on-surface-variant hover:text-on-surface transition-colors" href="#">Aviso Legal</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" href="#">Política de Privacidad</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" href="#">Cookies</a></div></div></div></footer>
+
+</body></html>
