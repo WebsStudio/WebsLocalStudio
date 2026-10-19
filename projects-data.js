@@ -9,8 +9,8 @@ window.WEBS_STUDIO_PROJECTS = [
   ...project,
   repoUrl: `https://github.com/WebsStudio/${project.repo}`,
   siteUrl: `https://websstudio.github.io/${encodeURIComponent(project.repo)}/`,
-  image: {"RacingGarage_":"https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=85","L-mina-Hair-Studio":"https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=85","OpticaPro":"https://websstudio.github.io/OpticaPro/images/centro.jpg","Hosteleria-oscuro":"https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85","Climatizacion_Brava":"https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=85","Terra-Restaurant":"https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85"}[project.repo],
-  imageAlt: `Imagen ilustrativa para ${project.title}`,
+  image: {"RacingGarage_":"https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=85","L-mina-Hair-Studio":"https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=85","OpticaPro":"https://images.unsplash.com/photo-1534078477103-9f6a18b3a5e2?auto=format&fit=crop&w=1200&q=85","Hosteleria-oscuro":"https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85","Climatizacion_Brava":"https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=85","Terra-Restaurant":"https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85"}[project.repo],
+  imageAlt: project.repo === "OpticaPro" ? "Selección de monturas de gafas en una óptica" : `Imagen ilustrativa para ${project.title}`,
   location: "Muestra de portfolio",
   features: ["Explorar la web de muestra", "Ver el diseño adaptado al sector"],
   demoUrl: `https://websstudio.github.io/${encodeURIComponent(project.repo)}/`
