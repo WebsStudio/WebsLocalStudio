@@ -136,7 +136,7 @@
   const filters = document.getElementById("filter-container");
   if (filters) {
     filters.replaceChildren();
-    [["all","Todos los repositorios"],["motor","Talleres y motor"],["hosteleria","Restaurantes"],["otros","Otros sectores"]].forEach(([category,label]) => {
+    [["all","Todos los proyectos"],["motor","Talleres y motor"],["hosteleria","Restaurantes"],["otros","Otros sectores"]].forEach(([category,label]) => {
       const button = document.createElement("button");
       button.type = "button";
       button.className = "filter-pill font-label-lg text-label-lg px-space-md py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all";
