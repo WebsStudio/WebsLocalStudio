@@ -9,9 +9,10 @@ window.WEBS_STUDIO_PROJECTS = [
 ].map(project => ({
   ...project,
   repoUrl: `https://github.com/WebsStudio/${project.repo}`,
-  image: `https://opengraph.githubassets.com/1/WebsStudio/${encodeURIComponent(project.repo)}`,
-  imageAlt: `Vista previa de GitHub del repositorio ${project.repo}`,
-  location: "Repositorio público de WebsStudio",
-  features: ["Ver archivos y estructura del proyecto", "Consultar los detalles y el historial en GitHub"],
-  demoUrl: `https://github.com/WebsStudio/${project.repo}`
+  siteUrl: `https://websstudio.github.io/${encodeURIComponent(project.repo)}/`,
+  image: {"RacingGarage_":"https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=85","L-mina-Hair-Studio":"https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=85","OpticaPro":"https://websstudio.github.io/OpticaPro/images/portada.jpg","Hosteleria-oscuro":"https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85","Climatizacion_Brava":"https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=85","Mudanzas_Lura":"https://images.unsplash.com/photo-1600518464441-9306b00e1a08?auto=format&fit=crop&w=1200&q=85","Terra-Restaurant":"https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85"}[project.repo],
+  imageAlt: `Imagen ilustrativa para ${project.title}`,
+  location: "Muestra de portfolio",
+  features: ["Explorar la web de muestra", "Ver el diseño adaptado al sector"],
+  demoUrl: `https://websstudio.github.io/${encodeURIComponent(project.repo)}/`
 }));
