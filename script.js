@@ -55,8 +55,8 @@
             <span class="material-symbols-outlined text-[16px]">info</span>
             <span>Ficha Detallada</span>
           </button>
-          <a href="${p.repoUrl}" target="_blank" rel="noopener noreferrer" onclick="selectSector('${p.category}')" class="px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-sm text-label-sm font-semibold hover:bg-inverse-primary transition-colors flex items-center gap-1">
-            <span>Ver repositorio</span>
+          <a href="${p.siteUrl}" target="_blank" rel="noopener noreferrer" onclick="selectSector('${p.category}')" class="px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-sm text-label-sm font-semibold hover:bg-inverse-primary transition-colors flex items-center gap-1">
+            <span>Ver web</span>
             <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
           </a>
         </div>
