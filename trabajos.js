@@ -57,11 +57,11 @@
     details.textContent = "Detalles";
     details.addEventListener("click", () => openProject(project, details));
     const repo = document.createElement("a");
-    repo.href = project.repoUrl;
+    repo.href = project.siteUrl;
     repo.target = "_blank";
     repo.rel = "noopener noreferrer";
     repo.className = "flex-1 text-center px-3 py-2 rounded-lg bg-primary-container hover:bg-inverse-primary text-on-primary-container font-label-sm text-label-sm font-semibold";
-    repo.textContent = "Ver repositorio";
+    repo.textContent = "Ver web";
     actions.append(details, repo);
     card.append(visual, content, actions);
     return card;
@@ -74,7 +74,7 @@
     if (!visible.length) {
       const empty = document.createElement("p");
       empty.className = "col-span-full py-12 text-center text-on-surface-variant";
-      empty.textContent = "No hay repositorios en esta categoría.";
+      empty.textContent = "No hay proyectos en esta categoría.";
       grid.append(empty);
       return;
     }
@@ -91,9 +91,9 @@
           <span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold">${project.status} · ${project.category}</span>
           <h2 class="font-headline-lg text-headline-lg-mobile sm:text-headline-lg text-on-surface font-bold" tabindex="-1">${project.title}</h2>
           <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">${project.fullDesc}</p>
-          <p class="font-label-sm text-label-sm text-on-surface-variant">El botón abre el repositorio de código, no una web publicada.</p>
+          <p class="font-label-sm text-label-sm text-on-surface-variant">Abre la página web de muestra de este proyecto.</p>
           <div class="flex flex-col sm:flex-row gap-space-sm pt-space-md border-t border-surface-container-highest">
-            <a href="${project.repoUrl}" target="_blank" rel="noopener noreferrer" class="flex-1 text-center px-5 py-3 rounded-lg bg-primary-container hover:bg-inverse-primary text-on-primary-container font-semibold">Abrir en GitHub</a>
+            <a href="${project.siteUrl}" target="_blank" rel="noopener noreferrer" class="flex-1 text-center px-5 py-3 rounded-lg bg-primary-container hover:bg-inverse-primary text-on-primary-container font-semibold">Abrir web</a>
             <button type="button" class="close-details px-5 py-3 rounded-lg bg-surface-container-high text-on-surface font-semibold">Cerrar</button>
           </div>
         </div>
